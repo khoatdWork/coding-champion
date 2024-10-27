@@ -1,0 +1,11 @@
+.content { 
+  display: flex;
+  justify-content: space-between;
+
+  .left { 
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+}

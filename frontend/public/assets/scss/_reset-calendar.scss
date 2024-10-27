@@ -1,0 +1,45 @@
+full-calendar {
+    .fc-col-header-cell {
+        .fc-col-header-cell-cushion {
+            padding: 10px;
+            font-size: 13px;
+        }
+    }
+    .fc-daygrid-day-number {
+        padding: 10px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .fc-day-today {
+        background-color: #D1E4FF !important;
+    }
+    .fc-theme-standard td,
+    .fc-theme-standard th {
+        border: 0.5px solid #E0E2E5 !important;
+    }
+}
+
+.fc-timegrid-axis-frame-liquid {
+    padding: 20px !important;
+    height: 100px !important;
+    .fc-scrollgrid-sync-inner {
+        text-transform: uppercase !important;
+        font-size: 13px;
+        font-weight: 500;
+        max-width: unset !important;
+        text-align: center;
+    }
+}
+
+.fc-timegrid-slot-label {
+    padding: 20px !important;
+    height: 150px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.fc-timegrid-slot-label-frame {
+    text-align: center !important;
+}

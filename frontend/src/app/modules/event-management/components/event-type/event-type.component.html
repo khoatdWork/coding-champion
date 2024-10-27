@@ -1,0 +1,35 @@
+<div class="content">
+  <ul class="list-event-type">
+    <li class="list-event-type__item">
+      <span class="list-event-type__item--color"></span>
+      <span class="list-event-type__item--name">Conference</span>
+    </li>
+    <li class="list-event-type__item">
+      <span class="list-event-type__item--color"></span>
+      <span class="list-event-type__item--name">Conference</span>
+    </li>
+    <li class="list-event-type__item">
+      <span class="list-event-type__item--color"></span>
+      <span class="list-event-type__item--name">Conference</span>
+    </li>
+    <li class="list-event-type__item">
+      <span class="list-event-type__item--color"></span>
+      <span class="list-event-type__item--name">Conference</span>
+    </li>
+    <li class="list-event-type__item">
+      <span class="list-event-type__item--color"></span>
+      <span class="list-event-type__item--name">Conference</span>
+    </li>
+    <li class="list-event-type__item">
+      <span class="list-event-type__item--color"></span>
+      <span class="list-event-type__item--name">Conference</span>
+    </li>
+  </ul>
+
+  <p-button label="Add Event Type" [link]="true" (onClick)="op.toggle($event)"/>
+
+  <p-overlayPanel #op>
+    <app-add-event-type></app-add-event-type>
+  </p-overlayPanel>
+
+</div>

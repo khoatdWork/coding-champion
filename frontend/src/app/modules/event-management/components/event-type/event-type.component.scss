@@ -1,0 +1,33 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list-event-type {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        &--color {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #c1c1c1;
+        }
+        &--name {
+            font-size: 13px;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+/* Order */
+
+.p-button {
+    padding: 8px 12px;
+    background: #56B0FF;
+    border-color: #56B0FF;
+    lucide-angular {
+        margin-right: 5px;
+        display: flex;
+        svg {
+            width: 15px;
+            height: 15px;
+            font-size: 15px;
+        }
+    }
+    .p-button-label {
+        font-size: 13px;
+    }
+}
+
+.p-button-text {
+    padding: 8px 5px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.p-button-link {
+    background-color: transparent;
+    border: none;
+    .p-button-label {
+        text-decoration: underline;
+        color: #56B0FF;
+    }
+}
+
+.p-button-secondary {
+    background-color: #EFF1F2;
+    color: #4E5256;
+    border-color: #EFF1F2;
+}
+
+.form-group {
+    label {
+        font-size: 13px;
+    }
+    .p-inputtext {
+        padding: 8px;
+    }
+}

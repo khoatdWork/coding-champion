@@ -1,0 +1,23 @@
+<div class="content">
+  <div class="left">
+    <p-button label="Today" />
+    <p-button [text]="true">
+      <lucide-angular [img]="ChevronLeft"></lucide-angular>
+    </p-button>
+    <p-button [text]="true">
+      <lucide-angular [img]="ChevronRight"></lucide-angular>
+    </p-button>
+  </div>
+  <div class="center">
+    <p-buttonGroup>
+      <p-button label="Day" />
+      <p-button label="Week" />
+      <p-button label="Month" />
+    </p-buttonGroup>
+  </div>
+  <div class="right">
+    <p-button label="Create Event">
+      <lucide-angular [img]="Plus"></lucide-angular>
+    </p-button>
+  </div>
+</div>
