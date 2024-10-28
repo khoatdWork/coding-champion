@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, signal, Signal } from '@angular/core';
 import { ButtonModule } from 'primeng/button';
 import { OverlayPanelModule } from 'primeng/overlaypanel';
 import { AddEventTypeComponent } from './add-event-type/add-event-type.component';
@@ -9,9 +9,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   templateUrl: './event-type.component.html',
   styleUrls: ['./event-type.component.scss'],
   standalone: true,
-  imports: [ButtonModule, OverlayPanelModule, AddEventTypeComponent  ]
+  imports: [ButtonModule, OverlayPanelModule, AddEventTypeComponent]
 })
 export class EventTypeComponent implements OnInit {
+
+  public isShowPanel = signal<boolean>(false);
 
   constructor() { }
 

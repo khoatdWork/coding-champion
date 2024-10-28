@@ -1,11 +1,14 @@
 <form action="">
   <div class="form-group">
-    <label for="username">Type Name</label>
-    <input pInputText id="username" aria-describedby="username-help" />
+    <label for="type-name">Type Name</label>
+    <input pInputText id="type-name" placeholder="Enter type name" [(ngModel)]="eventType.name"
+      [ngModelOptions]="{standalone: true}" />
   </div>
-  <div class="form-group">
+  <div class="form-group color-picker-box">
     <label for="username">Color</label>
-    <input pInputText id="username" aria-describedby="username-help" />
+    <input pInputText id="username" placeholder="Enter hex code (ex: #000000)" [(ngModel)]="eventType.color"
+      [ngModelOptions]="{standalone: true}" />
+    <p-colorPicker [(ngModel)]="eventType.color" [ngModelOptions]="{standalone: true}" />
   </div>
 
   <div class="button-group">

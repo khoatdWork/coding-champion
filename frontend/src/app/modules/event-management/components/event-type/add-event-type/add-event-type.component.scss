@@ -1,9 +1,8 @@
 form {
     width: 320px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     .form-group {
         display: flex;
         flex-direction: column;
@@ -14,4 +13,18 @@ form {
         justify-content: flex-end;
         gap: 10px;
     }
+    .color-picker-box {
+        position: relative;
+        p-colorpicker {
+            width: fit-content;
+            position: absolute;
+            bottom: 8px;
+            right: 8px;
+        }
+    }
+}
+
+:host ::ng-deep .p-colorpicker-preview {
+    width: 18px !important;
+    height: 18px !important;
 }

@@ -26,10 +26,10 @@
     </li>
   </ul>
 
-  <p-button label="Add Event Type" [link]="true" (onClick)="op.toggle($event)"/>
+  <p-button label="Add Event Type" [link]="true" (onClick)="op.toggle($event)" />
 
-  <p-overlayPanel #op>
-    <app-add-event-type></app-add-event-type>
+  <p-overlayPanel #op (onShow)="isShowPanel.set(true)" (onHide)="isShowPanel.set(false)">
+    <app-add-event-type ></app-add-event-type>
   </p-overlayPanel>
 
 </div>
